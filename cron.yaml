@@ -1,0 +1,53 @@
+cron:
+- description: daily get1
+  url: /getdata
+  schedule: every day 06:00
+  timezone: Europe/Rome
+- description: daily post1
+  url: /postdata
+  schedule: every day 08:00
+  timezone: Europe/Rome
+- description: daily get2
+  url: /getdata
+  schedule: every day 09:00
+  timezone: Europe/Rome
+- description: daily get3
+  url: /getdata
+  schedule: every day 11:00
+  timezone: Europe/Rome
+- description: daily get4
+  url: /getdata
+  schedule: every day 12:00
+  timezone: Europe/Rome
+- description: daily post2
+  url: /postdata
+  schedule: every day 13:00
+  timezone: Europe/Rome
+- description: daily get5
+  url: /getdata
+  schedule: every day 14:00
+  timezone: Europe/Rome
+- description: daily post3
+  url: /postdata
+  schedule: every day 15:00
+  timezone: Europe/Rome
+- description: daily post4
+  url: /postdata
+  schedule: every day 17:00
+  timezone: Europe/Rome
+- description: daily get6
+  url: /getdata
+  schedule: every day 18:00
+  timezone: Europe/Rome
+- description: daily post5
+  url: /postdata
+  schedule: every day 19:00
+  timezone: Europe/Rome
+- description: daily post6
+  url: /postdata
+  schedule: every day 21:00
+  timezone: Europe/Rome
+- description: daily post7
+  url: /postdata
+  schedule: every day 23:00
+  timezone: Europe/Rome
